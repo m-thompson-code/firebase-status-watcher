@@ -1,0 +1,20 @@
+{
+  "name": "getfirebasestatus",
+  "version": "1.0.0",
+  "description": "An html crawler to get the firebase service statuses",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "html2json": "^1.0.2",
+    "request-promise-native": "^1.0.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Thompson",
+  "license": "ISC"
+}

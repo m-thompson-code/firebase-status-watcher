@@ -1,0 +1,18 @@
+{
+  "name": "firebasestatuswatchercron",
+  "version": "1.0.0",
+  "description": "A cron job used to update a database with the latest firebase service statuses and sending emails to notify if needed services go down",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "^3.1.10",
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Thompson",
+  "license": "ISC"
+}
